@@ -1,0 +1,129 @@
+.image-fond
+{
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/background.webp");
+}
+
+.barre
+{
+    background-color: rgb(248, 248, 248);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+@font-face
+{
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans-Medium.ttf');
+}
+@font-face
+{
+    font-family: 'DM Sans Bold';
+    src: url('../fonts/DMSans-Bold.ttf');
+}
+.inline-image
+{
+    display: inline;
+    width: 200px;
+    border-radius: 5px;
+}
+.ligne-paire
+{
+    background-color: rgb(185, 185, 185);
+}
+.ligne-impaire
+{
+    background-color: lightgray;
+}
+#tableau-bateaux
+{
+    width: 100%;
+    border-collapse: collapse;
+    font: 16px "DM Sans";
+}
+#tableau-bateaux tbody
+{
+    
+    border-radius: 10px;
+}
+#tableau-bateaux thead tr
+{
+    
+    justify-items: center;
+}
+#tableau-bateaux td
+{
+    min-height: 300px;
+    width: 200px;
+}
+#tableau-bateaux thead
+{
+    color: #3164F4;
+}
+:root
+{
+    font-family: "DM Sans";
+}
+h1, h2, h3, h4, h5
+{
+    font-family: "DM Sans Bold"
+}
+
+.barre-titre
+{
+    font: 24px "DM Sans Bold";
+}
+
+.carousel-item img
+{
+    border-radius: 10px;
+    max-height: 600px;
+}
+
+.section-principale
+{
+    background-color: rgb(248, 248, 248);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a[class="button"]
+{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.image-card-bateau
+{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#tableau-equipements
+{
+    
+    width: 100%;
+    border-collapse: collapse;
+    font: 16px "DM Sans";
+}
+#tableau-caracteristiques
+{
+    
+    width: 100%;
+    border-collapse: collapse;
+    font: 16px "DM Sans";
+}
+
+.form-creation .row
+{
+    padding: 5px;
+}
+
+.image-label
+{
+    justify-items:start;
+}

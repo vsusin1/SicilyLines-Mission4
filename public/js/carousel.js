@@ -1,0 +1,1 @@
+const carouselAccueil = new bootstrap.Carousel('#carouselAccueil');
